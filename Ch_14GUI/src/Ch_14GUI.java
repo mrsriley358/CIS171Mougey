@@ -32,21 +32,27 @@ public class Ch_14GUI extends Application {
         //Create pane to hold image views
         Pane pane = new StackPane();
         pane.setPadding(new Insets(5, 5, 5, 5));
+        //Create the image
         Image image = new Image("hylian_crest_by_miraclegrowafro-d5uv0n8.jpg");
+        //Add the image to the pane
         pane.getChildren().add(new ImageView(image));
         
+        //Create the button and the text the button has on it
         Button btn = new Button();
         btn.setText("Navi");
-        btn.setOnAction(new EventHandler<ActionEvent>() {
-            
+        
+        //Create the event for when the button is clicked, it will display the text
+        btn.setOnAction(new EventHandler<ActionEvent>() {            
         @Override
         public void handle(ActionEvent event) {
             System.out.println("HEY LISTEN!");
             }
         });
         
+        //Add the button to the pane
         pane.getChildren().add(btn);
         
+        //Put the pane on the scene and then display it
         Scene scene = new Scene(pane);
         primaryStage.setTitle("Hylian Crest");
         primaryStage.setScene(scene);
