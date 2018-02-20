@@ -1,6 +1,6 @@
-# Project Title
+# Week05 Assign: Exercise 15.32 Control Clock
 
-One Paragraph of project description goes here
+Add two buttons to start and stop the clock
 
 ## Example Output
 
@@ -10,16 +10,13 @@ This image will display as your example output. Name the image README.jpg in you
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+Write a program that lets the user control the clock with the start and stop buttons. I looked in the book on how to create the buttons and add events to control the animation.
 
 ### Design
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+I created the buttons then added them to an HBox then added the HBox and the clock into a border pane, then I had the borderpane display in the scene. I created the buttons with the on click events and the lambdas we learned in class.
 
 ### Testing
 
@@ -27,21 +24,16 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
-```
-Give the example
-```
+Run the program click stop, the clock should stop moving.
+Click the start button it should start moving again.
 
 And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Notes
 
-Explain any issues or testing instructions.
+The hardest part for me was figuring out how to get the buttons to show up, I had to look up on google for a bit to find out I could add them into an HBox then put the HBox into a borderpane with the clock and then display it all in one scene.
 
 ## Do not change content below this line
 ## Adapted from a README Built With
