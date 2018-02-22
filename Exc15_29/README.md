@@ -1,6 +1,6 @@
-# Project Title
+# Racing Car
 
-One Paragraph of project description goes here
+Making a car move on a line and be able to pause and resume by holding a button, and speed up/slow down the car with arrow keys
 
 ## Example Output
 
@@ -17,9 +17,12 @@ to develop a solution.
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+Create the panes for the car and buttons
+Add the car images and create the line
+Add them to the panes
+Create a border pane and add the car and line to the bottom and the button to the top
+Create the event for the key presses and the pause/resume button
+Add it all to the stage and run the stage
 
 ### Testing
 
@@ -27,15 +30,12 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
-```
-Give the example
-```
+Add the button/car to the pane run the program to see if it shows
+Add the events to the program run the program and click the buttons
 
 And repeat
 
-```
-until finished
-```
+Check the buttons and events if they work
 
 End with an example of getting some data out of the system or using it for a little demo
 
