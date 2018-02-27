@@ -1,6 +1,6 @@
-# Project Title
+# Exercise 16.06
 
-One Paragraph of project description goes here
+Write a program that sets the horizontal alignment and column size properties of a text field ynamically.
 
 ## Example Output
 
@@ -10,8 +10,7 @@ This image will display as your example output. Name the image README.jpg in you
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+I created the panes buttons, and text fields needed and added the buttons to the panes, then gave the buttons and column size text field action events to change the text field
 
 ### Design
 
