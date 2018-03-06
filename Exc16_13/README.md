@@ -1,6 +1,6 @@
-# Project Title
+# Exercise 16.13
 
-One Paragraph of project description goes here
+Your program should let the user enter the loan amount and loan pered in a number of years from text fields and it should display the monthly nd total payments for each interest rate starting from 5% to 8% with increments of one-eighth in a text area.
 
 ## Example Output
 
@@ -17,9 +17,7 @@ to develop a solution.
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+I created all the panes and the button for the program then added the event handler to the button to display the interest, rate monthly payments, and total payment.
 
 ### Testing
 
@@ -27,15 +25,11 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
-```
-Give the example
-```
+Create the String.format and add the values then run the program to see how it displays
 
 And repeat
 
-```
-until finished
-```
+Change the format values until it looks good
 
 End with an example of getting some data out of the system or using it for a little demo
 
