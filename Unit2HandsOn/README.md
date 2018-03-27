@@ -1,6 +1,6 @@
-# Project Title
+# Unit 2 Hands On
 
-One Paragraph of project description goes here
+The program let the user enter an amount in US dollars and display its equivalent value in Canadian dollars when clicking the Convert button.
 
 ## Example Output
 
@@ -10,16 +10,13 @@ This image will display as your example output. Name the image README.jpg in you
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+I started by creating the TextFields then made the button after that I created the panes to hold the TextFields and disabled the Canadian Dollars one so it was uneditable, then I created the event handler for the button with the math to convert the USD to Canadian Dollars and create the output to be placed in the Canadian Dollars TextField
 
 ### Design
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+I used multiple TextFields for the USD and Canadian Dollars, a button, and an event handler to convert the USD to Canadian Dollars when clicked
 
 ### Testing
 
