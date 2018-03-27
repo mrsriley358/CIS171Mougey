@@ -1,6 +1,7 @@
-# Project Title
+# Array List Sort
 
-One Paragraph of project description goes here
+Write a method that sorts an ArrayList using 
+public static <E extends comparable<E>> void sort(ArrayList<E> list)
 
 ## Example Output
 
@@ -17,9 +18,7 @@ to develop a solution.
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+I created an arraylist with integers and one with strings then I sent them to the sort method and used Collections.sort to sort them both
 
 ### Testing
 
@@ -27,15 +26,8 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
+I made the array lists and printed them out to make sure they worked
+Then I made the sort method and ran it to make sure it sorted coreectly.
 
 End with an example of getting some data out of the system or using it for a little demo
 
