@@ -1,6 +1,7 @@
-# Project Title
+# ArrayListShuffle
 
-One Paragraph of project description goes here
+Write a method that shuffles an ArrayList using 
+public static <E> void shuffle(ArrayList<E> list)
 
 ## Example Output
 
@@ -17,9 +18,7 @@ to develop a solution.
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+I made an array list, then send the list to the method and used the Collections.shuffle to shuffle the list
 
 ### Testing
 
@@ -27,15 +26,9 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
-```
-Give the example
-```
+I made the list and made a temporary print statement to make sure it worked
 
-And repeat
-
-```
-until finished
-```
+Then I made the shuffle method and ran it to make sure it worked
 
 End with an example of getting some data out of the system or using it for a little demo
 
