@@ -1,6 +1,6 @@
-# Project Title
+# Exercise 22_08
 
-One Paragraph of project description goes here
+Write a program that finds all prime numbers up to 1,000,000.
 
 ## Example Output
 
@@ -23,21 +23,7 @@ Give examples
 
 ### Testing
 
-A step by step series of examples that you developed to properly test the program. 
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+I put a break point in the program and ran through it checking the variables to see the changes.
 
 ## Notes
 
