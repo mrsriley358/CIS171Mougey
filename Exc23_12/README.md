@@ -1,6 +1,6 @@
-# Project Title
+# Exc 23.12
 
-One Paragraph of project description goes here
+Create a program that uses a radix sort.
 
 ## Example Output
 
@@ -10,34 +10,19 @@ This image will display as your example output. Name the image README.jpg in you
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+Write a program that rnadomly generates 1,000,000 integers and sorts them using a radix sort.
 
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
-
-```
-Give examples
-```
+I created the array with random numbers and had it print.
+I then made sure to get the biggest number called max to test by dividing by increments of 10 until it was less than 0 to make sure im
+  cycling into countingSort the correct amount of times.
+Then in countingSort I would get the correct digit starting from the ones place and move them into the correct place in the array output
+  which would be returned back to the origin array arr.
 
 ### Testing
 
-A step by step series of examples that you developed to properly test the program. 
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+I would place printlines after each loops to make sure I was getting the correct sorting position I wanted.
 
 ## Notes
 
