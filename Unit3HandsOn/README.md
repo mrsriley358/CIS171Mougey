@@ -1,6 +1,6 @@
-# Project Title
+# Unit 3 Hands On
 
-One Paragraph of project description goes here
+Write a program that obtains the execution time of selection sort, radix sort, bubble sort, merge sort, quick sort, and heap sort for input size 50000, 100,000, 150,000, 200,000, 250,000, and 300,000.
 
 ## Example Output
 
@@ -15,33 +15,15 @@ to develop a solution.
 
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
-
-```
-Give examples
-```
+I created classes for each sorting method and to create the array to be sorted, and in the main I created a loop that would increment the size of the array. The array was sent to each sorting class that would be timed then the display would show the size of the array and the time required to complete.
 
 ### Testing
 
-A step by step series of examples that you developed to properly test the program. 
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+I started by creating the class to create the array and then the first sorting method which was the selection sort, I ran the program with a small array to see if it worked and sorted it correctly and if it did then I moved on to the next sorting method repeating the steps above.
 
 ## Notes
 
-Explain any issues or testing instructions.
+I ran into an issue with the quick sort, it was giving me an error saying "stackoverflow error" I tested it a lot and saw that it only had an error when sorting an array above the size of 8000, I ended up finding out that it was because the quick sort I was using was using to many recursions and would throw that error and I needed to change how it sorted a bit.
 
 ## Do not change content below this line
 ## Adapted from a README Built With
