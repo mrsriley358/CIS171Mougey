@@ -1,6 +1,6 @@
-# Project Title
+# Raise Flag
 
-One Paragraph of project description goes here
+Using  a  thread  to  animate  a  flag  being raised.
 
 ## Example Output
 
@@ -17,9 +17,7 @@ to develop a solution.
 
 How did you approach your program design? Did you use multiple classes to define various objects?
 
-```
-Give examples
-```
+I used a pane and imageView to hold the picture, then used a thread that raised the y axis to move the flag
 
 ### Testing
 
@@ -27,15 +25,11 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
-```
-Give the example
-```
+I would run the program to see how the flag moves, checking speed and direction
 
 And repeat
 
-```
-until finished
-```
+Change the x and y values to get the flag to move in the correct direction
 
 End with an example of getting some data out of the system or using it for a little demo
 
